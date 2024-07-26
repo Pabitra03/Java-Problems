@@ -1,4 +1,4 @@
-// Write a java program that read a celcius degree in a double value from the console then converts it to fahrenheit and display the resilts the formula for the conversion is as follows fahrenheit = (9/5) * celcius + 32.
+/* Write a java program that read a celcius degree in a double value from the console then converts it to fahrenheit and display the resilts the formula for the conversion is as follows fahrenheit = (9/5) * celcius + 32. */
 import java.util.Scanner;
 public class pro02 {
     public static void main(String[] args) {
