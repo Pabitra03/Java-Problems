@@ -7,5 +7,6 @@ public class pro02 {
         double celcius = sc.nextDouble();
         double fahrenheit = (9/5) * celcius + 32;
         System.out.println("The degree in fahrenheit is:- "+fahrenheit);
+        sc.close();
     }
 }
