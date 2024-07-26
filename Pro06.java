@@ -3,7 +3,7 @@
 to extract digits, and use the / operator to remove the extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93. */
 import java.util.Scanner;
 
-public class Pro06 {
+public class pro06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n, x, sum=0;
