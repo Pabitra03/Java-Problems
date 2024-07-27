@@ -2,7 +2,6 @@
 /* Write a program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14. Hint: Use the % operator 
 to extract digits, and use the / operator to remove the extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93. */
 import java.util.Scanner;
-
 public class pro06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -21,8 +20,7 @@ public class pro06 {
         x=n % 10;
         sum=sum + x;
         n=n / 10;
-        System.out.println("The sum of the disgits is:- " + sum);
+        System.out.print("The sum of the disgits is:- " + sum);
         sc.close();
     }
-
 }
